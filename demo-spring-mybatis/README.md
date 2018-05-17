@@ -1,0 +1,1 @@
+说明:运用spring整合mybatis的示例项目

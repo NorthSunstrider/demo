@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.northsunstrider</groupId>
+  <artifactId>demo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>demo-dubbo-api</module>
+	<module>demo-dubbo-consumer</module>
+	<module>demo-dubbo-consumer-zookeeper</module>
+	<module>demo-dubbo-provider</module>
+	<module>demo-dubbo-provider-zookeeper</module>
+	<module>demo-dubbo-restful</module>
+	<module>demo-hbm2java</module>
+	<module>demo-hibernate</module>
+	<module>demo-hibernate-extend</module>
+	<module>demo-jdbc</module>
+	<module>demo-maven-web</module>
+	<module>demo-mybatis</module>
+	<module>demo-spring-aop</module>
+	<module>demo-springboot-web</module>
+	<module>demo-spring-mybatis</module>
+	<module>demo-spring-web</module>
+  </modules>
+</project>

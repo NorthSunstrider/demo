@@ -1,0 +1,2 @@
+说明:运用springboot创建的web项目示例
+因为直接从apestore项目copy来的，所以也整合了mybatis
