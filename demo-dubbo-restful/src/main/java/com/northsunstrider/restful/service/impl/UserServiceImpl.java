@@ -21,10 +21,11 @@ import com.northsunstrider.restful.service.UserService;
 @Produces({ ContentType.APPLICATION_JSON_UTF_8, ContentType.TEXT_XML_UTF_8 })
 public class UserServiceImpl implements UserService {
 
+	@Override
 	@GET
 	@Path("{id:\\d+}")
 	public User getUser(@PathParam("id") int uid) {
-		User user = new User("root", "root");
+		User user = new User(""+uid, "root");
 		return user;
 	}
 

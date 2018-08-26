@@ -21,5 +21,6 @@
 	<module>demo-springboot-web</module>
 	<module>demo-spring-mybatis</module>
 	<module>demo-spring-web</module>
+	<module>demo-springboot-swagger</module>
   </modules>
 </project>
