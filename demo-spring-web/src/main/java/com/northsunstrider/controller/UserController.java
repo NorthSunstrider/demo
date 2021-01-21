@@ -1,7 +1,6 @@
 package com.northsunstrider.controller;
 
-import javax.annotation.Resource;
-
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,7 +15,7 @@ import com.northsunstrider.service.UserDataService;
 @RequestMapping("/user")
 public class UserController {
 
-	@Resource
+	@Autowired
 	UserDataService userDataService;
 
 	@RequestMapping(value = "/create", method = RequestMethod.POST)

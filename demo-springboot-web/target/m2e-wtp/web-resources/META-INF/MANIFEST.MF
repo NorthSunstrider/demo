@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
+Built-By: North
+Build-Jdk: 15.0.1
 Implementation-Title: demo-springboot-web
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: North
 Implementation-Vendor-Id: com.northsunstrider.demo
-Build-Jdk: 1.8.0_91
-Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.
+Created-By: Maven Integration for Eclipse
 
