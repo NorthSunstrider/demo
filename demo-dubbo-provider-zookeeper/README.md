@@ -1,1 +1,4 @@
 说明：在demo-dubbo-provider基础上的扩展项目，将注册中心切换为zookeeper
+先启动zookeeper，在zookeeper目录下运行zkServer.cmd
+启动provider，运行Provier.java
+启动consumer，运行Comsumer.java

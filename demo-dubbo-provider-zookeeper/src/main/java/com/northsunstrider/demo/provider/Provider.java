@@ -12,7 +12,7 @@ public class Provider {
 	/**
 	 * @Description TODO
 	 * @param args
-	 * @throws Exception 
+	 * @throws Exception
 	 */
 	public static void main(String[] args) throws Exception {
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
